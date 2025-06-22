@@ -40,3 +40,42 @@ Coming Soon...
 
 ## 📦 Folder Structure
 
+```
+MMPortal-SaaS/
+├── apps/
+│   ├── web-client/              # Frontend (Next.js + Tailwind CSS)
+│   ├── mobile-agent/           # Mobile app (React Native - optional)
+│   └── admin-dashboard/        # Admin portal
+├── backend/
+│   ├── api/                    # Express.js REST APIs
+│   ├── models/                 # MongoDB schemas (multi-tenant)
+│   ├── middleware/             # Auth, RBAC, logging
+│   └── services/               # Core logic (notifications, visa tracking, etc.)
+├── infra/
+│   ├── docker/                 # Dockerfiles & docker-compose setup
+│   ├── deployment/             # AWS ECS/Vercel config, CI/CD pipelines
+│   └── s3-storage/             # File storage interface (Cloudinary / AWS S3)
+├── docs/
+│   ├── architecture.md         # Multi-tenant DB design & SaaS flow
+│   ├── API_reference.md        # API docs
+│   └── user_manual.md          # Setup and usage guides
+├── scripts/
+│   └── seedData.js             # Demo tenant and sample users
+├── .env.example                # Environment variable template
+├── README.md                   # Project overview and setup
+├── LICENSE
+└── package.json
+```
+
+---
+
+### 🌟 GitHub Tags / Topics
+
+```
+#saas #recruitment #manpower #nodejs #nextjs #mongodb #multi-tenant #hrtech #stripe #aws
+```
+
+
+
+
+
