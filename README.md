@@ -1,4 +1,41 @@
-# MMPortal-SaaS 🚀
+# 🇳🇵 WorkNepal – Smart Manpower & Recruitment Platform
+
+WorkNepal is a modern, scalable, and secure SaaS platform designed to streamline the entire foreign employment and manpower recruitment lifecycle. Built specifically for Nepali recruitment agencies and HR companies, it supports candidate registration, document management, compliance tracking, and deployment management — with a focus on Gulf countries such as **UAE, Saudi Arabia, Qatar, and more**.
+
+WorkNepal is a modern, scalable, and secure SaaS platform designed to streamline the entire foreign employment and manpower recruitment lifecycle. Built specifically for Nepali recruitment agencies and HR companies, it supports candidate registration, document management, compliance tracking, and deployment management — with a focus on Gulf countries such as **UAE, Saudi Arabia, Qatar, and more**.
+
+---
+
+## 🚀 Features
+
+- ✅ **Multi-Tenant SaaS Architecture**
+- 🔐 **Secure Candidate Registration & Profile Management**
+- 📄 Document Uploads (Passport, Medical, Visa, etc.)
+- 🌍 Deployment Tracking Across Gulf Countries
+- 🧾 Invoice & Payment Integration (via Stripe)
+- 🏢 Agency/Admin Roles with Access Control
+- ☁️ Cloud Deployment Ready (AWS Compatible)
+- 📊 Dashboards & Reports for Agencies and Admins
+- 🌐 Built with **Node.js**, **Next.js**, **MongoDB**
+
+---
+
+## 🧠 Tech Stack
+
+| Layer         | Tech Used                      |
+|---------------|--------------------------------|
+| Frontend      | Next.js, React, Tailwind CSS   |
+| Backend       | Node.js, Express.js            |
+| Database      | MongoDB, Mongoose              |
+| Auth & Roles  | JWT, Role-Based Access Control |
+| Payment       | Stripe                         |
+| Deployment    | AWS, Vercel                    |
+
+---
+
+## 📦 Folder Structure
+
+
 
 **MMPortal** is a cloud-based, multi-tenant SaaS platform tailored for foreign employment and manpower recruitment agencies. Built for scalability, security, and compliance, MMPortal streamlines the entire recruitment lifecycle — from candidate registration to final deployment — across Gulf countries like Saudi Arabia, UAE, Qatar, and more.
 
