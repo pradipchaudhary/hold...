@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="/logo.png" alt="DaleDai Logo"/>
+  <img src="/banner.png" alt="DaleDai Logo"/>
 </p>
 > Your Trusted Agent
 
