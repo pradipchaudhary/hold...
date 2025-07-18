@@ -3,15 +3,112 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dale Dai | Your Trust Agent </title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Dale Dai | Your Trust Agent</title>
+  <style>
+    /* Reset & Fonts */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f5f9ff;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: #fff;
+      border-radius: 16px;
+      padding: 40px;
+      text-align: center;
+      max-width: 500px;
+      width: 90%;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .highlight {
+      color: #005eff;
+    }
+
+    .tagline {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .primary {
+      background-color: #005eff;
+      color: #fff;
+    }
+
+    .primary:hover {
+      background-color: #0047cc;
+    }
+
+    .secondary {
+      background-color: #e0e0e0;
+      color: #333;
+    }
+
+    .secondary:hover {
+      background-color: #ccc;
+    }
+
+    footer {
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    footer a {
+      color: #005eff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <img src="images/logo.png" alt="DaleDai Logo" class="logo" />
-    <h1>Welcome to DaleDai</h1>
-    <p class="tagline">दलेDai (Agent Brother) – Your trusted guide to safe and easy foreign employment.</p>
+    <img src="./logo.png" alt="DaleDai Logo" class="logo" />
     
+    <h1>Welcome to <span class="highlight">DaleDai</span></h1>
+    <p class="tagline">दलेDai (Agent Brother) – Your trusted guide to safe and easy foreign employment.</p>
+
     <div class="buttons">
       <a href="register.html" class="btn primary">Get Started</a>
       <a href="login.html" class="btn secondary">Log In</a>
@@ -22,6 +119,13 @@
     </footer>
   </div>
 
-  <script src="script.js"></script>
+  <script>
+    // Basic interactivity example
+    document.querySelectorAll('.btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        console.log(`Navigating to ${btn.getAttribute('href')}`);
+      });
+    });
+  </script>
 </body>
 </html>
