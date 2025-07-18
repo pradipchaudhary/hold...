@@ -1,6 +1,6 @@
-# Dale Dai
+
 <p align="center">
-  <img src="/logo.png" width="120" alt="DaleDai Logo"/>
+  <img src="/logo.png" width="300" alt="DaleDai Logo"/>
 </p>
 > Your Trusted Agent
 
