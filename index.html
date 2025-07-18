@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dale Dai | Your Trust Agent</title>
   <style>
-    /* Reset & Fonts */
     * {
       margin: 0;
       padding: 0;
@@ -17,23 +16,17 @@
       background: #f5f9ff;
       color: #333;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
+      justify-content: center;
       min-height: 100vh;
-    }
-
-    .container {
-      background: #fff;
-      border-radius: 16px;
-      padding: 40px;
+      padding: 20px;
       text-align: center;
-      max-width: 500px;
-      width: 90%;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     }
 
     .logo {
-      width: 100px;
+      width: 500px;
+      max-width: 90%;
       margin-bottom: 20px;
     }
 
@@ -52,13 +45,15 @@
       color: #555;
       margin-bottom: 30px;
       line-height: 1.5;
+      max-width: 600px;
     }
 
     .buttons {
       display: flex;
-      justify-content: center;
       gap: 16px;
       margin-bottom: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     .btn {
@@ -103,24 +98,22 @@
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="./logo.png" alt="DaleDai Logo" class="logo" />
-    
-    <h1>Welcome to <span class="highlight">DaleDai</span></h1>
-    <p class="tagline">दलेDai (Agent Brother) – Your trusted guide to safe and easy foreign employment.</p>
+  <img src="images/logo.png" alt="DaleDai Logo" class="logo" />
+  
+  <h1>Welcome to <span class="highlight">DaleDai</span></h1>
+  <p class="tagline">दलेDai (Agent Brother) – Your trusted guide to safe and easy foreign employment.</p>
 
-    <div class="buttons">
-      <a href="register.html" class="btn primary">Get Started</a>
-      <a href="login.html" class="btn secondary">Log In</a>
-    </div>
-
-    <footer>
-      Made with 💙 by <a href="https://github.com/pradipchaudhary" target="_blank">Pradip Chaudhary</a> 🇳🇵
-    </footer>
+  <div class="buttons">
+    <a href="register.html" class="btn primary">Get Started</a>
+    <a href="login.html" class="btn secondary">Log In</a>
   </div>
 
+  <footer>
+    Made with 💙 by <a href="https://github.com/pradipchaudhary" target="_blank">Pradip Chaudhary</a> 🇳🇵
+  </footer>
+
   <script>
-    // Basic interactivity example
+    // Optional: simple log for navigation
     document.querySelectorAll('.btn').forEach(btn => {
       btn.addEventListener('click', () => {
         console.log(`Navigating to ${btn.getAttribute('href')}`);
